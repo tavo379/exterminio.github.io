@@ -3,6 +3,7 @@ body {
   font-family: acumin-pro, sans-serif;
   font-style: normal;
   font-weight: 100;
+  background-position: center;
 }
 
 .container {
@@ -14,6 +15,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.main-banner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-banner img {
+  width: 100%;
 }
 
 .item-menu img {
@@ -60,6 +70,7 @@ nav ul li:hover {
   display: flex;
   justify-content: center;
   position: relative;
+  margin-top: 80px;
 }
 
 .hero-section::after {
@@ -74,7 +85,7 @@ nav ul li:hover {
 }
 
 .hero-section img {
-  max-width: fit-content;
+  max-width: 80%;
   width: 100%;
 }
 
@@ -86,7 +97,7 @@ nav ul li:hover {
 }
 
 .post-it_section img {
-  max-width: fit-content;
+  max-width: 450px;
   width: 100%;
 }
 
