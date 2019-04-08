@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- define que la página es html 5 -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -12,15 +12,19 @@
 <body>
   <nav>
     <ul>
-      <li class="item-menu">Casos de corrupción <img src="images/raya.png" alt="raya"></li>
-      <li>Denuncia</li>
-      <li class="instagram">síguenos: <img src="images/instagram.svg" alt="instagram"></li>
+      <li><a href="#nuestra">Nuestra campaña</a></li>
+      <li class="item-menu"><a href="#casos">Casos de corrupción <img src="images/raya.png" alt="raya"></a></li>
+      <li><a href="#denuncia">Denuncia</a></li>
+      <li class="instagram"><a target="__blank" href="https://instagram.com/exterminio_adioscorruptos">síguenos: <img src="images/instagram.svg" alt="instagram"></a></li>
     </ul>
   </nav>
   <div class="main-banner">
     <img src="images/titulo-home-min.gif" alt="gif">
   </div>
-  <div class="hero-section container">
+  <div id="nuestra" class="three-moments">
+    <img src="images/three-moments.png" alt="3 momentos de corrupción">
+  </div>
+  <div id="casos" class="hero-section container">
     <img src="images/casos-de-corrupcion.png" alt="casos de corrupción">
   </div>
   <div class="post-it_section container">
@@ -38,7 +42,7 @@
     <img src="images/Rata-2.png" alt="rata2">
     <img class="box-3" src="images/Caso5.png" alt="caso5">
   </div>
-  <div class="contact container">
+  <div id="denuncia" class="contact container">
     <div class="wrapper-contact">
       <div class="contact-header">
         <div class="contact-header_img_container">
